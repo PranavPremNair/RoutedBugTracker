@@ -1,0 +1,31 @@
+.sidenav {
+    height: 80%; /* Set the height to fill the entire vertical space */
+    width: 80px; /* Set the width of the side navigation */
+    position: fixed; /* Make it fixed so it doesn't scroll with the page */
+    z-index: 1; /* Set a higher z-index to make sure it overlays other elements */
+    /*top: 0; /* Position it at the top */
+    left: 0; /* Position it on the left */
+    background-color: #333; /* Set a background color */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    padding-top: 20px; /* Add some top padding */
+  }
+  
+  .sidenav button {
+    display: block; /* Display the buttons as block elements */
+    color: #fff; /* Set the text color */
+    text-decoration: none; /* Remove the default underline */
+    background-color: transparent; /* Set a transparent background */
+    border: none; /* Remove the border */
+    padding: 10px 16px; /* Add some padding */
+    font-size: 16px; /* Set the font size */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+  }
+  
+  .sidenav button:hover {
+    background-color: #555; /* Add a background color on hover */
+  }
+  
+  .sidenav button.active {
+    background-color: #4CAF50; /* Add a background color to the active button */
+  }
+  

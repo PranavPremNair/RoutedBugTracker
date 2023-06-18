@@ -1,0 +1,140 @@
+<!-- for header part -->
+<link rel="stylesheet" href="bugupdate.component.css">
+<header>
+
+    <div class="logosec">
+        <div class="logo">Bug Tracker Application</div>
+    </div>
+
+    <div class="searchbar">
+        <input type="text" placeholder="Search">
+        <div class="searchbtn">
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png"
+                class="icn srchicn" alt="search-icon">
+        </div>
+    </div>
+</header>
+
+<div class="main-container">
+    <div class="navcontainer">
+        <nav class="nav">
+            <div class="nav-upper-options">
+                <div class="nav-option option1">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210182148/Untitled-design-(29).png"
+                        class="nav-img" alt="dashboard">
+                    <h3>Dashboard</h3>
+                </div>
+
+
+
+                <div class="nav-option logout">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183321/7.png" class="nav-img"
+                        alt="logout">
+                    <h3> Logout</h3>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+    <div class="main">
+
+        <div class="searchbar2">
+            <input type="text" name="" id="" placeholder="Search">
+            <div class="searchbtn">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png"
+                    class="icn srchicn" alt="search-button">
+            </div>
+        </div>
+        <div class="header69">
+            <div class=" Pranav">
+                <h2>Bug Details</h2>
+                <div class="joveal">
+                    
+                        <button class="delete-btn" onclick="deleteBug(2000)">Delete</button>
+                </div>
+
+
+            </div>
+            <div class="container">
+                <div class="bugDetails">
+                    <div class="flexxxxxx">
+                        <h2>Bug ID:</h2>
+                        <div class="moveaway1">
+                            <p>100</p>
+                        </div>
+                    </div>
+                    <div class="flexxxxxx">
+
+                        <h2>Project ID:</h2>
+                        <div class="moveaway2">
+                            <p>2000</p>
+                        </div>
+                    </div>
+                    <div class="flexxxxxx">
+                        <h2>Project Name :</h2>
+                        <div class="moveaway3">
+                            <p>Food Order Application</p>
+                        </div>
+
+                    </div>
+                    <div class="flexxxxxx">
+                        <h2>Bug Name:</h2>
+                        <div class="moveaway4">
+                            <p>Syntax Error</p>
+                        </div>
+                    </div>
+                    <div class="flexxxxxx">
+                        <h2>Assigned to:</h2>
+                        <div class="moveaway5">
+                            <p>Anurag</p>
+                        </div>
+                    </div>
+                    <div class="flexxxxxx">
+                        <h2>Assigned by:</h2>
+                        <div class="moveaway">
+                            <p>Siva</p>
+                        </div>
+                    </div>
+                    <div class="flexxxxxx">
+                        <h2>Date Created:</h2>
+                        <div class="moveaway6">
+                            <p>2023-06-01</p>
+                        </div>
+                    </div>
+                    <div class="flexxxxxx">
+                        <h2>Date Updated:</h2>
+                        <div class="moveaway7">
+                            <p>2023-06-04</p>
+                        </div>
+                    </div>
+                    <h2>Status:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        <select class="select-btn" id="myDropdown">
+
+                            <option value="option1">Open</option>
+                            <option value="option2">Closed</option>
+                            <option value="option3">Progress</option>
+
+                        </select>
+
+                        <button class="add-btn" onclick="updateBug(2000)">
+                            Update</button>
+
+
+                    </h2>
+                    <div class="desc">
+                        <h2>Description:</h2>&nbsp;&nbsp;&nbsp;
+                        <label for="description"></label>
+                        <div class="moveaway7">
+                            <textarea id="description" name="description" rows="2" cols="1000"></textarea>
+                        </div>
+                    </div>
+                    <div class="moveaway8">
+                        <div class="centrealign">
+                            <button class="subbutton" type="button" routerLink="/routetobuglist">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

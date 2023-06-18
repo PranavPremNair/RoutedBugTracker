@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bug Tracker App - Registration/Login</title>
+  <link rel="stylesheet" href="login.component.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bug Tracker App</h1>
+    <h2><strong>Registration</strong></h2>
+    <form id="registration-form" action="register.php" method="POST" onsubmit="return validateForm()">
+      <label for="username">Username:</label>
+
+      <input type="text" id="username" name="username" required>
+      <label for="name">Name:</label>
+     <input type="text" id="name" name="name" required>
+
+      <label for="password">Email:</label>
+      <input type="text" id="password" name="email" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <label for="repassword">Re-enter Password:</label>
+      <input type="password" id="repassword" name="repassword" required>
+      
+      <div class="signup">
+         <button type="submit" (click)="onSubmit()"  routerLink="/create-page">Submit</button>
+          
+      </div>
+    </form>
+  </div>
+
+  <script>
+    function validateForm() {
+      var password = document.getElementById("password").value;
+      var repassword = document.getElementById("repassword").value;
+
+      if (password !== repassword) {
+        alert("Passwords do not match");
+        return false;
+      }
+
+      return true;
+    }
+  </script>
+</body>
+</html>
