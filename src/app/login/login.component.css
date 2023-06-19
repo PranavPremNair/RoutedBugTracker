@@ -6,12 +6,13 @@ body {
 }
 
 .container {
-  width: 1000px;
+  width: 500px;
   margin: 0px;
   padding: 20px;
-  background-color: rgb(182, 163, 163);
-  border-radius: 80px;
+  background-color: rgb(255, 255, 255);
+  /* border-radius: 80px; */
   box-shadow: 0 2px 5px rgba(190, 181, 181, 0.1);
+  margin-left: 25rem;
 }
 
 h1 {

@@ -31,4 +31,121 @@ body {
   .cta-button:hover {
     background-color: #0056b3;
   }
+  .Em
+  {
+    text-align: center;
+    padding-top: 4rem;
+  }
+
+  /* Navbar styles */
+.navbar {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.navbar-logo a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline;
+  margin-right: 10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+.nav-item a:hover {
+  background-color: #333;
+  color: #fff;
+}
+.aboutus{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* Other styles */
+.Fea {
   
+  padding-top: 4rem;
+ 
+}
+.linesep{
+  margin: auto;
+  background-color: #030303;
+  height: 2px;
+  width: 35vw;
+  align-content: center;
+  opacity: 0.9;
+  
+
+}
+.FeaSpace
+{
+
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+/* .aboutspace
+{
+  padding-top: 7rem;
+} */
+/* .missionspace
+{
+  padding-top:7rem ;
+} */
+.Em
+{
+  height: 20rem;
+}
+.paddingtop{
+  margin-top: 30px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+
+  background-color: rgba(255, 255, 255, 0.292);
+  border-radius: 10px;
+}
+.card-body{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color:rgba(255, 255, 255, 0.411);
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.card-title{
+  padding-top: 20px;
+}
+
+.card-text{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.FeaSpace1
+{
+  padding-top: 7rem;
+}

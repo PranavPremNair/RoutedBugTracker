@@ -14,11 +14,13 @@
     .container {
       width: 300px;
       margin: 100px auto;
-      margin-top: 0px;
+      margin-top: 5rem;
       background-color: #fff;
       padding: 20px;
-      border-radius: 50px;
+      /* border-radius: 50px; */
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      
+      
     }
 
     h2 {
@@ -58,6 +60,13 @@
       text-align: center;
       margin-top: 0px;
     }
+    a{
+      font-size: 10px;
+    }
+    .signupspace
+    {
+      padding-top: 5px;
+    }
   </style>
 </head>
 <body>
@@ -79,9 +88,11 @@
     <div class="forgot-password">
       <a href="#">Forgot password?</a>
     </div>
+    <div class="signupspace">
     <div class="signup">
-      <button type="submit" (click)="onSubmitRegistration()" routerLink="/registration">signup</button>
+      <button type="submit" (click)="onSubmitRegistration()" routerLink="/registration">Signup</button>
     </div>
+  </div>
     
   </div>
 </body>
